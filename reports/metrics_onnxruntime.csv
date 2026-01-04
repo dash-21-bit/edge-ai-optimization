@@ -1,0 +1,3 @@
+model,path,size_mb,avg_latency_ms
+onnx_fp32,models/baseline_fp32_valueinfo_stripped.onnx,0.7986,0.031
+onnx_int8_dynamic_matmul_gemm,models/baseline_int8.onnx,0.2209,0.039
